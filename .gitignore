@@ -1,0 +1,23 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# LocalStack
+.localstack/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment / secrets
+.env
+*.pem
+*.key
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
