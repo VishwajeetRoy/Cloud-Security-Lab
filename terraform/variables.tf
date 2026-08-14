@@ -3,3 +3,8 @@ variable "aws_region" {
   type        = string
   default     = "ap-south-1"
 }
+
+variable "admin_ip" {
+  description = "Public IPv4 address allowed to access SSH"
+  type        = string
+}
